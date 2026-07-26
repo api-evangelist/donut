@@ -1,9 +1,28 @@
 aid: donut
 name: Donut
-description: 'Donut is a company surfaced as a portfolio company of accel, bloomberg-beta and added to
-  the API Evangelist network as a stub for enrichment. Sector: collaboration. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Donut is an employee experience platform that helps companies design, automate, and
+  scale people programs directly inside Slack and Microsoft Teams. Best known for its
+  intro and coffee-chat pairing bot, Donut runs onboarding journeys, team-connection and
+  watercooler programs, peer recognition, and engagement surveys, and imports data from
+  50+ HRIS systems (BambooHR, Greenhouse, Workday) alongside Zoom, Google Meet, and
+  calendar integrations. It is trusted by 20,000+ teams including Anthropic, Figma, Carta,
+  and Ramp. Donut authenticates users via Slack OAuth and is SOC 2 compliant. It does not
+  currently publish a public developer API; its GitHub organization ships a Slack app
+  template and internal tooling.
 url: https://raw.githubusercontent.com/api-evangelist/donut/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.donut.com/wp-content/uploads/2018/02/donut_face_100@2x.v1.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Collaboration
+- Employee Experience
+- Slack
+- Microsoft Teams
+- Onboarding
+- Team Building
+- Recognition
+- Human Resources
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +51,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.donut.com/remote-connections/
+  url: https://www.donut.com/
+- type: Support
+  url: https://help.donut.ai/en/
+- type: Blog
+  url: https://www.donut.com/blog/
+- type: Pricing
+  url: https://www.donut.com/pricing/
+- type: TermsOfService
+  url: https://www.donut.com/terms/
+- type: PrivacyPolicy
+  url: https://www.donut.com/privacy/
+- type: GitHubOrganization
+  url: https://github.com/donut-ai
+- type: Compliance
+  url: https://trust.donut.com/
+- type: TrustCenter
+  url: security/donut-trust-center.yml
+- type: DomainSecurity
+  url: security/donut-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

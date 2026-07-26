@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://help.donut.ai/en/articles/634820-donut-data-access-security-and-privacy
+url: https://trust.donut.com/
+certifications:
+- SOC 2
+program:
+  data_encryption_in_transit: TLS 1.3 (HTTPS over SSL)
+  data_encryption_at_rest: Heroku Postgres encryption at rest
+  hosting: Heroku, AWS
+  authentication: Slack OAuth (no separate password store)
+  documents_available: [SOC 2 report, W-9, Certificate of Insurance]
+evidence:
+- source: https://help.donut.ai/en/articles/634820-donut-data-access-security-and-privacy
+  keywords: [soc 2, trust center, tls 1.3, encryption at rest]
+- source: https://trust.donut.com/
+  keywords: [trust center]
+notes: >-
+  Donut publishes a hosted trust center at trust.donut.com and states in its help
+  center that it is SOC 2 compliant. The trust-center page itself is a JavaScript
+  app whose certification list is not machine-readable; the SOC 2 claim is sourced
+  from Donut's own data-access/security/privacy help article. No public bug bounty
+  or responsible-disclosure page was found.
